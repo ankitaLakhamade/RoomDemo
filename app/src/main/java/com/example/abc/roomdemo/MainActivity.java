@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         DatabaseAsync databaseAsync = (DatabaseAsync) new DatabaseAsync(this,SampleDatabase.getSampleDatabase(this)).execute();
-
     }
 
 
